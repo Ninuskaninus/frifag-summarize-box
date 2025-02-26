@@ -15,7 +15,7 @@ main {
   margin-top: 150px;
 }
 
-.article-summarize-container {
+.article-summary-container {
   background: #fff;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.06);
   padding: 20px;
@@ -24,7 +24,7 @@ main {
   border-left: 5px solid #ff6900;
 }
 
-.article-summarize-btn {
+.article-summary-btn {
   position: absolute;
   bottom: -10px;
   left: 50%;
@@ -51,7 +51,7 @@ main {
   display: none;
 }
 
-.article-summarize-wrapper {
+.article-summary-wrapper {
   max-height: 140px;
   overflow: hidden;
 }
@@ -70,26 +70,26 @@ main {
   background: linear-gradient(transparent, #fff);
 }
 
-.article-summarize-container h1 {
+.article-summary-container h1 {
   font-size: 1.5rem;
   margin-bottom: 10px;
   margin-top: 0;
 }
 
-.article-summarize-container p {
+.article-summary-container p {
   font-size: 1rem;
   line-height: 1.5;
   margin-bottom: 20px;
   font-weight: 400;
 }
 
-.article-summarize-container span {
+.article-summary-container span {
   font-size: 0.8rem;
   color: #7f7f7f;
   display: block;
   margin: 10px 0;
 }
 
-.article-summarize-container ul {
+.article-summary-container ul {
   padding-left: 20px;
 }

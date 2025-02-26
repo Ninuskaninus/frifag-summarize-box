@@ -8,8 +8,8 @@
   </head>
   <body>
     <main>
-      <div class="article-summarize-container">
-        <div class="article-summarize-wrapper">
+      <div class="article-summary-container">
+        <div class="article-summary-wrapper">
           <h1>Saken oppsummert</h1>
           <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -44,26 +44,24 @@
           >
         </div>
         <div class="gradient-overlay"></div>
-        <button class="article-summarize-btn">Les mer</button>
+        <button class="article-summary-btn" id="summaryBtnFrifag">
+          Les mer
+        </button>
       </div>
     </main>
   </body>
   <script>
-    const articleSummarizeBtn = document.querySelector(
-      ".article-summarize-btn"
-    );
-    const articleSummarizeWrapper = document.querySelector(
-      ".article-summarize-wrapper"
+    const articlesummaryBtn = document.querySelector(".article-summary-btn");
+    const articlesummaryWrapper = document.querySelector(
+      ".article-summary-wrapper"
     );
     const gradientOverlay = document.querySelector(".gradient-overlay");
 
-    articleSummarizeBtn.addEventListener("click", () => {
-      articleSummarizeWrapper.classList.toggle("open");
+    articlesummaryBtn.addEventListener("click", () => {
+      articlesummaryWrapper.classList.toggle("open");
       gradientOverlay.classList.toggle("active");
-      articleSummarizeBtn.textContent =
-        articleSummarizeBtn.textContent === "Les mer"
-          ? "Les mindre"
-          : "Les mer";
+      articlesummaryBtn.textContent =
+        articlesummaryBtn.textContent === "Les mer" ? "Les mindre" : "Les mer";
     });
   </script>
 </html>
